@@ -1,6 +1,7 @@
 # MotionPro
 
 ## -- | Equipo Tupsi-Code |--
+Algunos archivos requieren instalación de dependencias:  EmailSend (1).py
 
 ### ¿QUÉ?
 El proyecto se llama Motion Pro y es una plataforma de rehabilitación basada en inteligencia artificial (IA). Utiliza señales electromiográficas (sEMG) para ofrecer juegos interactivos y personalizados que ayudan en el proceso de rehabilitación muscular. Además, permite la interacción directa entre los pacientes y los fisioterapeutas a través de una aplicación web, facilitando un seguimiento efectivo y brindando apoyo continuo.
