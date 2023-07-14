@@ -8,13 +8,15 @@ export const setupPosts = (data) => {
       const li = `
       <li class="list-group-item list-group-item-action">
         <h5>${post.title}</h5>
-        <p>${post.content}</p>
+        <p> Días de racha: 🔥${post.content}</p>
+        <p> EXP: ⚡${post.expTotal}</p>
       </li>
     `;
       html += li;
     });
     postList.innerHTML = html;
   } else {
-    postList.innerHTML = '<h4 class="text-white">Login to See Posts</h4>';
+    postList.innerHTML = '<img src="./app/img/Phisiotherapy-bro (1).svg" alt="Login to See Posts" width = "90%" style="margin: auto;"></img>';
   }
 };
+
